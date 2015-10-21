@@ -1,5 +1,5 @@
 #!/bin/bash
 
 git add .
-git commit -am "fix footer to bottom"
+git commit -am "add adoc file to summary"
 git push origin master:master
