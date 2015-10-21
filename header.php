@@ -1,5 +1,4 @@
-<html>
-<head>
+
 <style type="text/css" media="screen">
 
 .nav > li .dropdown-menu {
@@ -9,8 +8,8 @@ margin: 0;
 display: block;
 }
 
-
 </style>
+
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
@@ -21,8 +20,8 @@ display: block;
     <script src="extlib/bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" ></script>
     <script src="extlib/bootstrap-3.3.5-dist/js/tooltip.js" type="text/javascript" charset="utf-8" ></script>
     <script src="extlib/bootstrap-3.3.5-dist/js/carousel.js" type="text/javascript" charset="utf-8" ></script>
-</head>
-<body>
+
+
     <div class="container">
 
      <div class="row">
@@ -40,7 +39,11 @@ display: block;
             </a> 
          </div>     
      </div>
+
+   </div> 
      <br>
+
+    <div class="container">
     <!-- 主菜单下拉菜单  -->
     <div class="row">
     <div class="col-sm-12">
@@ -73,5 +76,8 @@ display: block;
         <li role="presentation" <?if($_GET['fpage']=="support.php") echo " class='active'";?>><a href="support.php?fpage=support.php"  data-toggle="tooltip" data-placement="bottom" title="技术支持">技术支持</a></li>
         <li role="presentation" <?if($_GET['fpage']=="aboutjundatech.php") echo " class='active'";?>><a href="aboutjundatech.php?fpage=aboutjundatech.php"  data-toggle="tooltip" data-placement="bottom" title="关于我们">关于我们</a></li>
     </ul>
+    </nav>
     </div>
     </div>
+    </div>
+

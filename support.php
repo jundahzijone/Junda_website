@@ -1,12 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<link rel="stylesheet" type="text/css" href="extlib/font-awesome.min.css">    
+</head>
+<body>
+
+
 <?php
   require_once("header.php");
 ?> 
-<link rel="stylesheet" type="text/css" href="extlib/font-awesome.min.css">
- <div class="container">
+
+
+
+ <div class="container" >
      <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p><small>联系我们</small></p>
         <p><h2>广州市竣达智能软件有限公司</h2></p>
-        <hr>
+          <hr>
+       </div>
+      
         <div class="col-md-6">
             <ul>
                 <li>地址: 广州市科学城彩频路9号科学软件园B902G B902H</li>
@@ -20,7 +34,10 @@
          
      </div>
 
- </div> 
+
+     </div>
+
+
 
 
 
@@ -30,3 +47,6 @@
 <?php 
  require_once("footer.php");
 ?>
+
+</body>
+</html>
